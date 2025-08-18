@@ -39,8 +39,15 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <span style={{ fontWeight: "bold", fontSize: "1.5rem", color: "#fff" }}>
+            Halia{" "}
+            <span style={{ color: "#a24dd3" }}>
+              Rutab
+            </span>
+          </span>
         </Navbar.Brand>
+
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
