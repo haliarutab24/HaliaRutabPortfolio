@@ -3,11 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import emotion from "../../Assets/Projects/focusmate.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import suicide from "../../Assets/Projects/uni-lost-n-find (2).png";
+import bitsOfCode from "../../Assets/Projects/cake-website.png";
+
 
 function Projects() {
   return (
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Sweet-Delights"
+              description="Sweet Delights is a modern, user-friendly website for a dessert shop that offers mouthwatering cakes, pastries, and sweets. Designed with an elegant layout, responsive design, and smooth navigation, it brings the charm of a dessert shop to the digital world.Sweet Delights is a modern, user-friendly website for a dessert shop that offers mouthwatering cakes, pastries, and sweets. Designed with an elegant layout, responsive design, and smooth navigation."
+              ghLink="https://github.com/haliarutab24/SweetDelights1.git"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -69,9 +70,11 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Lost and Found Portal "
+              description=" Lost and Found Portal built specifically for UMT students and staff!
+This platform ensures lost items don't stay lost for long — by simplifying how items are reported, found, and claimed.
+ Built using modern web technologies with a strong focus on security, usability, and real-time tracking."
+              ghLink="https://github.com/haliarutab24/UMT-Lost-Find-Portal.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +83,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Focus Mate"
+              description=" Introducing Focus Mate – Your Ultimate Productivity Partner!
+A smart productivity app designed to help students and professionals beat distractions, stay organized, and achieve their goals."
+              ghLink="https://github.com/haliarutab24/FocusMateApp.git"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
