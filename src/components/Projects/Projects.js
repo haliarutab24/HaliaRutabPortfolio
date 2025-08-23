@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/focusmate.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/crave-mingle.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/uni-lost-n-find (2).png";
 import bitsOfCode from "../../Assets/Projects/cake-website.png";
@@ -48,10 +48,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Crave-Mingle"
+              description="OCraveMingle is a modern and user-friendly food ordering platform designed to satisfy your cravings with just a few clicks.
+
+From browsing diverse menus to customizing your dishes, CraveMingle ensures that every bite is exactly how you want it. Because when hunger calls, we help you mingle with flavor. 🍕🥗🍔"
+              ghLink="https://github.com/haliarutab24/Food-Order.git"
+              demoLink="https://food-order-ruddy-delta.vercel.app"              
             />
           </Col>
 
