@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/halia rutab.png";
+import myImg from "../../Assets/halia1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./Home2.css"; // We'll create this CSS file
 
 function Home2() {
   return (
@@ -47,14 +48,16 @@ function Home2() {
               to design smooth user experiences and efficient backends.
               <br />
               <br />
-              Currently, I’m also exploring{" "}
+              Currently, I'm also exploring{" "}
               <b className="purple">cloud technologies, deployment pipelines,</b> and{" "}
               <b className="purple">real-time apps</b> to expand my skillset.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <div className="image-wrapper">
+                <img src={myImg} className="img-fluid" alt="avatar" />
+              </div>
             </Tilt>
           </Col>
         </Row>
@@ -62,7 +65,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Let’s <span className="purple">connect</span> and collaborate on
+              Let's <span className="purple">connect</span> and collaborate on
               exciting projects!
             </p>
             <ul className="home-about-social-links">
